@@ -1,0 +1,112 @@
+html, body{
+  width: 100%;
+  margin: 2px;
+  
+}
+body{
+  background: #e7e6e6;
+  margin: 0px; 
+  
+}
+
+.ladoD{
+  margin: 5px;
+  float: justify;
+}
+
+.topnav {
+  color: #19325f;
+  width:1357px;
+  overflow: hidden;
+  background-color: #ad9bd3;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #19325f;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #ad9bd3;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #e7e6e6;
+  color: #black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #ad9bd3;
+  color:#black;
+}
+.logo{
+  float: left;
+  background: #e7e6e6;
+  width: 70%;
+}
+.icones{
+  width: 30%;
+  float: right;
+  padding: 0px;
+  background: #e7e6e6;
+  display: inline-block;
+}
+.icones ul li{
+  margin-left: 10px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+  background: #e7e6e6;
+}
+.Menu{
+  background: #e7e6e6;
+  width: 100%;
+  height: 70px;
+}
+.img2{
+  position: relative;
+  right: 0;
+  margin: 90px;
+  font-size: 20px;
+  width: 50%;
+}
+.intro2{
+  height: 100%;
+  width: 100%;
+  position: center;
+}
+.img3{
+  position: relative;
+  left: 0;
+  margin: 90px;
+  font-size: 20px;
+  width: 50%;
+}
+.img2e3{
+  height: 100%;
+  width: 90%;
+  position: center;
+}
+.concertar{
+  width: 50%;
+  min-width: 1347px;
+  text-align: center;
+  float: left;
+}
